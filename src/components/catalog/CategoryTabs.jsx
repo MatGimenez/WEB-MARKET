@@ -5,8 +5,8 @@ export function CategoryTabs({ categories, active, onChange }) {
         <button
           key={cat}
           onClick={() => onChange(cat)}
-          className={`shrink-0 rounded-full px-4 py-2 text-sm border
-            ${cat === active ? "bg-black text-white" : "bg-white"}`}
+          className={`shrink-0 rounded-full px-4 py-2 text-sm border border-slate-400
+            ${cat === active ? "bg-green-600 text-white font-bold" : "bg-white"}`}
         >
           {cat}
         </button>
